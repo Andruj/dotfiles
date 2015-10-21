@@ -20,10 +20,11 @@ echo
 export GOPATH=$HOME/projects/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin:/usr/local/share/scala/bin:/usr/bin/mongodb/bin
 
+export BASHRC=$HOME/projects/github/dotfiles/.bashrc
 #Aliases
 
-alias reload='source ~/.bashrc'
-alias settings='vim ~/.bashrc'
+alias reload='source $BASHRC'
+alias settings='vim $BASHRC'
 alias lsa='ls -lhXG'
 alias cl='clear'
 alias grep='grep --color=auto'
@@ -45,6 +46,16 @@ c() {
 # --- moves files to trash folder.
 del() {
 	mv $1 ~/.local/share/Trash/files
+}
+
+# --- moves .jscsrc, .jshint, and other dotfiles to folder.
+devcnf() {
+	cp ~/projects/github/dotfiles/.jscsrc $1
+	cp ~/projects/github/dotfiles/.jshintrc $1
+}
+
+repo() {
+	c ~/projects/github/$1
 }
 
 # --- scans filesystem 3 levels deep, history, packages and binaries.

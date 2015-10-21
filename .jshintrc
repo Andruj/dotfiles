@@ -1,0 +1,18 @@
+{
+  "node": true,
+  "asi": true,
+  "esnext": true,
+  "bitwise": false,
+  "curly": false,
+  "eqeqeq": true,
+  "eqnull": true,
+  "immed": true,
+  "latedef": false,
+  "noarg": true,
+  "undef": true,
+  "strict": true,
+  "quotmark": "single",
+  "scripturl": true,
+  "freeze": true,
+  "funcscope": true
+}
