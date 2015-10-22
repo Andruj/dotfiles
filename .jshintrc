@@ -1,18 +1,63 @@
 {
-  "node": true,
-  "asi": true,
-  "esnext": true,
-  "bitwise": false,
-  "curly": false,
-  "eqeqeq": true,
-  "eqnull": true,
-  "immed": true,
-  "latedef": false,
-  "noarg": true,
-  "undef": true,
-  "strict": true,
-  "quotmark": "single",
-  "scripturl": true,
-  "freeze": true,
-  "funcscope": true
+  "maxerr": 20, // Don't need screen vomit.
+
+  "maxdepth": 2, // Maximum number of nested control structures. 
+
+  "asi": true, // Supresses warnings about missed semicolons.
+  
+  "esnext": true, // Allow es2015 features.
+
+  "varstmt": true, // No 'var' declarations allowed.
+  
+  "forin": true, // Requires you exclude inherited properties in 'for in' loops.
+  
+  "nonew": true, // Disallows constructor functions for side-effects.
+  
+  "notypeof": false, // Checks for valid typeof values only.
+
+  "singleGroups": true, // Requires the use of unary operators if avaliable.
+
+  "nocomma": true, // Disallows the use of the comma operator.
+  
+  "bitwise": true, // Warns about using bitwise operators.
+  
+  "devel": true, // Defines console and alert as globals for debugging.
+  
+  "curly": false, // Remove warnings about curly braces for control structures.
+  
+  "expr": true, // Supress warnings about expressions for function calls.
+
+  "eqeqeq": true, // Prohibit use of == and enforce ===.
+  
+  "eqnull": true, // Supress warnings about == null comparisons.
+  
+  "immed": true, // Immediate function expressions require parentheses.
+  
+  "latedef": true, // Prohibit variable usage before definition.
+  
+  "noarg": true, // Prohibits arguments.caller and arguments.callee.
+  
+  "undef": true, // Prohibit use of undefined variables.
+  
+  "strict": true, // Requires 'strict mode'.
+  
+  "quotmark": "single", // Restrict to single qoutes.
+  
+  "scripturl": true, // Supress warnings about script targeted urls.
+  
+  "freeze": true, // Prohibits extending native objects prototypes.
+  
+  "funcscope": true, // No accessing a variable outside of block scope in function.
+  
+  "browser": true, // Defines browser globals.
+  
+  "jquery": true, // Defines jQuery globals.
+  
+  "node": true, // Defindes node globals.
+  
+  "globals": { // Defines use globals - unique per project.
+  
+    "Backbone": true
+  
+    }
 }
