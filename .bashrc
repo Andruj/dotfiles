@@ -52,6 +52,7 @@ del() {
 devcnf() {
 	cp ~/projects/github/dotfiles/.jscsrc $1
 	cp ~/projects/github/dotfiles/.jshintrc $1
+	cp ~/projects/github/dotfiles/.babelrc $1
 }
 
 repo() {

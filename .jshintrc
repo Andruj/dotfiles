@@ -1,7 +1,7 @@
 {
   "maxerr": 20, // Don't need screen vomit.
 
-  "maxdepth": 2, // Maximum number of nested control structures. 
+  "maxdepth": 3, // Maximum number of nested control structures. 
 
   "asi": true, // Supresses warnings about missed semicolons.
   
