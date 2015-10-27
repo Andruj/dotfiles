@@ -45,7 +45,7 @@ c() {
 
 g() {
 
-	git $1 --verbose
+	git $1
 }
 
 # --- moves files to trash folder.
