@@ -43,6 +43,11 @@ c() {
 	cd $1 && ls --color=auto
 }
 
+g() {
+
+	git $1 --verbose
+}
+
 # --- moves files to trash folder.
 del() {
 	mv $1 ~/.local/share/Trash/files
