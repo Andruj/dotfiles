@@ -1,8 +1,17 @@
 [user]
 	email = andrewpeterson@outlook.com
 	name = Andruj
+[alias]
+  c = commit
+  a = add --all
+  p = push
+  pl = pull
+  s = status -s
+  df = diff --color --color-words --abbrev
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -- 
+  last = log -1 HEAD
 [color]
-  ui = auto
+  ui = always
 [color "branch"]
   current = yellow reverse
   local = yellow
@@ -16,3 +25,8 @@
   added = yellow
   changed = green
   untracked = cyan
+[color "diff-highlight"]
+  oldNormal = "red bold"
+  oldHighlight = "red bold 52"
+  newNormal = "green bold"
+  newHighlight = "green bold 22"
