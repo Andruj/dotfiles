@@ -36,17 +36,13 @@ alias update='sudo apt-get -qq update && sudo apt-get upgrade'
 alias node='node --harmony --use-strict'
 alias redshift='redshift -l 35.292350:-120.684928 -t 4500:2500 -v'
 alias chrome='google-chrome'
+alias g='git'
 
 # Functions
 
 # --- replaces need to ls after cd.
 c() {
 	cd $1 && ls --color=auto
-}
-
-g() {
-
-	git $1
 }
 
 # --- moves files to trash folder.
