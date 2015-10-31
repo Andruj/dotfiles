@@ -2,7 +2,9 @@
 	email = andrewpeterson@outlook.com
 	name = Andruj
 [alias]
+  b = branch
   c = commit
+  ch = checkout
   a = add --all
   p = push
   pl = pull
