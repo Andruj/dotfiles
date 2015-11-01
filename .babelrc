@@ -1,4 +1,4 @@
 {
-	"only": "./**/*.babel.js", // Only ever transpile .babel.js files.
+	"only": "./**/*.js", // Only ever transpile .babel.js files.
 	"stage": 0 // The bleeding edge.
 }
