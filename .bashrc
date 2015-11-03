@@ -34,7 +34,7 @@ alias bye='exit'
 alias install='sudo apt-get install'
 alias update='sudo apt-get -qq update && sudo apt-get upgrade'
 alias node='node --harmony --use-strict'
-alias redshift='redshift -l 35.292350:-120.684928 -t 4500:2500 -v'
+alias redshift='redshift -l 35.292350:-120.684928 -t 4500:1500 -v'
 alias chrome='google-chrome'
 alias g='git'
 
