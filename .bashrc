@@ -18,13 +18,13 @@ echo
 
 # Environemnt Paths
 export GOPATH=$HOME/projects/go
-export PATH=$PATH:/usr/local/dart/dart-sdk/bin:/usr/local/:/usr/local/go/bin:$GOPATH/bin:/usr/local/share/scala/bin:/usr/bin/mongodb/bin
+export PATH=$PATH:/usr/lib/dart/bin:/usr/local/:/usr/local/go/bin:$GOPATH/bin:/usr/local/share/scala/bin:/usr/bin/mongodb/bin
 
-export BASHRC=$HOME/projects/github/dotfiles/.bashrc
+export BASHRC=$HOME/Code/github/dotfiles/.bashrc
 #Aliases
 
 alias reload='source $BASHRC'
-alias settings='subl $BASHRC'
+alias settings='vim $BASHRC'
 alias lsa='ls -lhXG'
 alias cl='clear'
 alias grep='grep --color=auto'
