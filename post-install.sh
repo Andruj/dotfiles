@@ -24,3 +24,6 @@ source $dir/node-module-install.sh
 echo
 echo "Installing MongoBD..."
 source $dir/mongodb-install.sh
+echo
+echo "Configuring Git..."
+source ./git-config.sh
