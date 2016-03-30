@@ -4,8 +4,8 @@ echo
 echo "Installing git, vim, and curl..."
 source $dir/terminal-install.sh
 echo
-echo "Installing Java 7..."
-source $dir/java-seven-install.sh
+echo "Installing Java 7 and 8..."
+source $dir/java-install.sh
 echo
 echo "Installing Spotify..."
 source $dir/spotify-install.sh
@@ -25,5 +25,8 @@ echo
 echo "Installing MongoBD..."
 source $dir/mongodb-install.sh
 echo
-echo "Configuring Git..."
-source ./git-config.sh
+echo "Installing Go..."
+source $dir/go-install.sh
+echo
+echo "Installing Scala..."
+source $dir/scala-install.sh
