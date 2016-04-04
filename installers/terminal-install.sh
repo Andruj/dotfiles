@@ -1,1 +1,1 @@
-sudo apt-get -qq install -y git vim curl
+sudo apt-get -qq install -y git vim curl python-pip

@@ -16,8 +16,11 @@ echo
 echo "Loading you personal settings..."
 echo
 
+# Prompt
+PS1='\[\033[01;91m\]\w\[\033[00m\] \[\033[01;33m\]$\[\033[00m\] '
+
 # Environemnt Paths
-export GOPATH=$HOME/projects/go
+export GOPATH=$HOME/Code/go
 export PATH=$PATH:/usr/lib/dart/bin:/usr/local/:/usr/local/go/bin:$GOPATH/bin:/usr/local/share/scala/bin:/usr/bin/mongodb/bin
 
 export BASHRC=$HOME/Code/github/dotfiles/.bashrc
